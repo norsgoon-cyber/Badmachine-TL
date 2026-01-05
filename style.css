@@ -1,0 +1,72 @@
+body {
+    font-family: 'Georgia', serif; /* Serif fonts are easier for long reading */
+    line-height: 1.8;
+    background-color: #fdfdfd;
+    color: #2c3e50;
+    margin: 0;
+    padding: 20px;
+}
+
+.container, .reader-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+    font-family: 'Helvetica', sans-serif;
+    color: #1a1a1a;
+}
+
+.synopsis {
+    font-style: italic;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Buttons */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #333;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.btn.disabled {
+    background: #ccc;
+    pointer-events: none;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 600px) {
+    body { padding: 10px; }
+    .container, .reader-container { padding: 20px; }
+}
