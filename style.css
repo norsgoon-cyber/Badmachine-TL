@@ -8,11 +8,13 @@ body {
 }
 
 .container, .reader-container {
-    max-width: 900px;
-    margin: 0 auto;
+    /* 75ch is the 'Golden Rule' for readability (approx 75 characters per line) */
+    max-width: 75ch; 
+    margin: 40px auto; /* Centers the box with some top/bottom breathing room */
     background: white;
-    padding: 40px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 60px; /* Increased padding for a 'premium' book feel */
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08); /* Softer, modern shadow */
+    border-radius: 8px;
 }
 
 h1, h2 {
