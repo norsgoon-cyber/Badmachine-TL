@@ -30,11 +30,11 @@ h1, h2 {
 ul {
     list-style: circle;
     padding: 0;
+    border-bottom: 1px solid #eee;
 }
 
-ul li {
-    padding: 10px 10px;
-    border-bottom: 1px solid #eee;
+li {
+    padding: 30px;
 }
 
 a {
