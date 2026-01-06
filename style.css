@@ -6,6 +6,13 @@ body {
     margin: 0;
     padding: 20px;
 }
+.word-count {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 10px 0 20px;
+    text-align: right;
+}
+
 
 .container, .reader-container {
     /* 75ch is the 'Golden Rule' for readability (approx 75 characters per line) */
