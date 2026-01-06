@@ -7,8 +7,8 @@ body {
     padding: 20px;
 }
 .word-count {
-    font-size: 0.9rem;
-    color: #888;
+    font-size: 20px;
+    color: black;
     margin: 10px 0 20px;
     text-align: right;
 }
