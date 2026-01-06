@@ -10,4 +10,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const wordCount = text ? text.split(" ").length : 0;
 
-    counter.textContent = `Word count: ${wordCount.
+    counter.textContent = `Word count: ${wordCount.toLocaleString()}`;
+});
